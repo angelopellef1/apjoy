@@ -72,6 +72,11 @@ Btn_State APJoy::Read_Button()
     return (Btn_State)digitalRead(this->button);
 }
 
+void APJoy::Debug(int *x, int *y)
+{
+    *x = this->x;
+    *y = this->y;
+}
 
 
 

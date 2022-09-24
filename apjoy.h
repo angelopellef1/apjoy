@@ -32,6 +32,7 @@ public:
     void calib();
 	Direction Read_dir();
 	Btn_State Read_Button();
+    void Debug(int *, int *);
     int x;    //read raw values (no Volt)
     int y;    //read raw values
     int center_x;
